@@ -1,0 +1,25 @@
+{
+  "name": "get-nodeenv",
+  "version": "1.0.0",
+  "description": "Gets process.env.NODE_ENV. Can set a default.",
+  "main": "index.cjs",
+  "repository": "https://github.com/zelzen/get-nodeenv",
+  "author": "Gabe M <hey@gabe.mx>",
+  "license": "MIT",
+  "files": [
+    "index.cjs"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "NODE_ENV",
+    "nodeenv"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
